@@ -9,7 +9,7 @@ def is_prime(num):
 # Input from the user
 number = int(input("Enter a number: "))
 # Check if the number is prime
-if is_prime(number):
+if is_primes(number):
    print(f"{number} is a prime number")
 else:
    print(f"{number} is not a prime number")
